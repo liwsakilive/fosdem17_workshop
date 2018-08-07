@@ -3,8 +3,8 @@ echo "Hello from $HOSTNAME at FOSDEM 2017"
 echo "$(date) - Starting DRLM Provisioning ..."
 
 echo "$(date) - Adjusting Timezone ..."
-ln -sf /usr/share/zoneinfo/Europe/Brussels /etc/localtime
-echo "Europe/Brussels" > /etc/timezone
+ln -sf /usr/share/zoneinfo/Asia/Bangkok /etc/localtime
+echo "Asia/Bangkok" > /etc/timezone
 
 cd /
 echo "$(date) - Installing DRLM deps ..."
